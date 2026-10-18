@@ -1,0 +1,15 @@
+{
+  "name": "Beckman Service & PM Assistant",
+  "short_name": "Service PM",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#f2f6fa",
+  "theme_color": "#0b3157",
+  "icons": [
+    {
+      "src": "icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}
