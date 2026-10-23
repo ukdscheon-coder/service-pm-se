@@ -1,7 +1,7 @@
 {
   "name": "Beckman Service & PM Assistant",
   "short_name": "Service PM",
-  "start_url": "./index.html",
+  "start_url": "/",
   "display": "standalone",
   "background_color": "#f2f6fa",
   "theme_color": "#0b3157",
@@ -11,5 +11,9 @@
       "sizes": "any",
       "type": "image/svg+xml"
     }
-  ]
+  ],
+  "id": "/",
+  "scope": "/",
+  "orientation": "portrait-primary",
+  "description": "Mobile field service and preventive maintenance assistant"
 }
