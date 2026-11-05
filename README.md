@@ -10,3 +10,6 @@ Live at https://service-pm-se.vercel.app since 05/11/2026.
 - `legacy/service-pm-v2.24/`: the previous Service PM app (records, schedule). Kept in the repository, not deployed
   (`.vercelignore`). The same version is on branch `backup/service-pm-v2.24`.
 - Records stay on the device (browser storage). Old Service PM records already on a phone are not deleted.
+- `instruments.js`: 44 DxI 9000 instruments (18 sites) imported 05/11/2026 from Contact_emails_05_Nov.xlsx — IN, SN,
+  SW, APF, install date, PM history (6M = PM-A, 12M = PM-B), MODs and service work. Keyed by IN. The sign-in line at
+  the top of the spreadsheet is deliberately not imported.
