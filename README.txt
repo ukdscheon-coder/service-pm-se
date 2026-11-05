@@ -17,3 +17,5 @@ V2.13 FIX
 - More Information now ALWAYS includes the full PM Manual Figure Index (Figure 45–55), while the current PM step also shows its specific figure reference where applicable.
 
 V2.14: More Information now shows only Figure references relevant to the CURRENT PM step. The global Figure 45–55 index was removed. Reagent Storage (RSM) links only to Figure 50 — Pipetting Nest Cover and Debris (example).
+
+V2.24 FIX: the Reagent Storage (RSM) step now shows its detailed instructions and the Figure 50 reference. The step title and the lookup keys did not match ('Reagent Storage (RSM)' vs 'Reagent Storage Module (RSM)'), so the step fell back to the short summary. Cache name bumped to v224 so installed PWAs pick up the fix.
