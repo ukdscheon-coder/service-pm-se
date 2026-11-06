@@ -13,3 +13,8 @@ Live at https://service-pm-se.vercel.app since 05/11/2026.
 - `instruments.js`: 44 DxI 9000 instruments (18 sites) imported 05/11/2026 from Contact_emails_05_Nov.xlsx — IN, SN,
   SW, APF, install date, PM history (6M = PM-A, 12M = PM-B), MODs and service work. Keyed by IN. The sign-in line at
   the top of the spreadsheet is deliberately not imported.
+
+## Change record
+| Date | Change |
+|---|---|
+| 06/11/2026 | Step order v2 (DS): RSM work grouped while the console is paused, before power off. Step 2 is now *Bypass interlock, pause and unload reagent packs* (remove the **RSM reagent storage door**, then unload). Step 3 checks the cooling fans with the door already removed. New steps 4–6: RSM nests and storage; RSM top guide shaft and red bushing (D0518); RSM gripper check (Z-axis gap at the top guide red bushing → suspect bent bottom Z-axis torque tube; X-axis belt and torque tube barrier alignment). Step 7 *Power off and disconnect* no longer pauses again. The later separate *Reagent Storage (RSM)* step is removed. PM-A 31 → 33 steps, PM-B 32 → 34. PMs started before this change keep the v1 list (`pmWorkflowV1`). |
